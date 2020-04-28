@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 class ProfilePage < SitePrism::Page
-  set_url 'https://positiveness.herokuapp.com/users/106'
+  set_url ''
 
   element :link_list_following, :xpath, '//div[@class="stats"]/a[1]'
   element :link_list_followers, :xpath, '//div[@class="stats"]/a[2]'
   elements :lista_posts, :xpath, '//li[@class="post-div"]'
-
 
   def clicar_link_list_followers
     link_list_followers.click

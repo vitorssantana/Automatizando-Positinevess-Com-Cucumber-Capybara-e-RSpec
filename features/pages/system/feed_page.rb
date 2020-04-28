@@ -1,6 +1,7 @@
+# frozen_string_literal: true
 
 class FeedPage < SitePrism::Page
-  set_url 'https://positiveness.herokuapp.com/'
+  set_url ''
 
   element :link_view_my_profile, :xpath, '//a[text()="view my profile "]'
   element :link_list_following, :xpath, '//div[@class="stats"]/a[1]'

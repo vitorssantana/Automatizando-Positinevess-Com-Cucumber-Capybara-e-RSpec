@@ -1,5 +1,5 @@
 class ListUsersPage < SitePrism::Page
-  set_url 'https://positiveness.herokuapp.com/users'
+  set_url ''
   elements :lista_users, :xpath, '//tr'
 
   def clicar_exibir_perfil_usuario(string)

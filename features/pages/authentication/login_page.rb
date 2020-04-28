@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class LoginPage < SitePrism::Page
-  set_url 'https://positiveness.herokuapp.com/login'
+  set_url ''
   element :input_email, '#session_email'
   element :input_password, '#session_password'
   element :botao_login, :xpath, '//input[@value="Log in"]'

@@ -1,5 +1,5 @@
 class PasswordResetPage < SitePrism::Page
-  set_url 'https://positiveness.herokuapp.com/password_resets/new'
+  set_url ''
 
   element :input_email, '#password_reset_email'
   element :botao_submit, :xpath, '//input[@value="Submit"]'

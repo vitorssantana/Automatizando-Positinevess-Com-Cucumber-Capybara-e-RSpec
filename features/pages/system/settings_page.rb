@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class SettingsPage < SitePrism::Page
-  set_url 'https://positiveness.herokuapp.com/users/106/edit'
+  set_url ''
 
   element :input_name, '#user_name'
   element :input_email, '#user_email'
@@ -17,5 +19,4 @@ class SettingsPage < SitePrism::Page
   def clicar_botao_save_changes
     button_save_changes.click
   end
-
 end
